@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    max-width: 1489px
+}
+#firstrow{
+    background-color: #232323;
+   
+}
+
+.topbar-links {
+    list-style: none;
+    height: 24px;
+}
+.topbar-links a{
+    color: white;
+}
+.topbar-links a:hover{
+    cursor: pointer;
+    color: #F8B51A;
+    text-decoration: none;
+}
+.link{
+   font-size: 12px;
+   padding-top: 10px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+padding-right: 20px;
+padding-left: 20px;
+text-align: center;
+height: 40px;
+
+}
+
+.container1{
+    height: 150px;
+    padding-top: 16px;
+    gap: 19px;
+}
+.bg-image{
+    width: 600px;
+   background-image: url("https://www.icts.res.in/sites/all/themes/riley/img/icts-logo-triangles.png");
+
+}
+.navbar{
+    background-color: #b31d0f;
+    height: 40px;
+}
+.collapse{
+    margin-left: 209px;
+}
+.navbar-nav{
+    gap: 15px;
+}
+.navbar-nav a{
+    color: white;
+    text-decoration: none;   
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .header {
+    padding-top: 500px;
+  }
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 35%;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+  /* Next & previous buttons */
+/* .prev, .next { */
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border-radius: 50px;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    padding-top: 1px;
+    padding-left: 15px;}
+/* .next { */
+    right: 18%;
+    color: white;}
+/* .prev{ */
+    left: 18%}
+/* .prev:hover, .next:hover { */
+    background-color: rgba(0,0,0,0.8);}
+
+
+#box-head{
+    width: 100%;
+   max-width: 900px;
+    height: 40px;
+    font-family: "Open Sans",'PT Sans',sans-serif;
+    background-color: #ebebeb;
+}
+
+.row :hover{
+    transform: scale(1.09);
+}
+.row img{
+    width:100%;
+    max-width:300px;
+   
+}
+
+.caption{
+    line-height: 30px;
+}
+.caption span{
+    color:#b4361e;
+    background-color:rgba(255,255,255,0.85);
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+   
+}
+.caption a{
+    color:#b31d0f;
+    text-decoration: none;
+   
+}
+a:hover{
+    color: #F88826;
+}
